@@ -11,8 +11,10 @@ Implement a function to find the first bad version. You should minimize the numb
 """
 class Solution:
     def firstBadVersion(self, n: int) -> int:
-        version = n
+        bad_version = -1
+        for i in range(0, n + 1):
+            if isBadVersion(i):
+                bad_version = i
+                break
         
-        if isBadVersion(version):
-            print(f'Bad Version: {version}')
-            version - 1
+        return bad_version
