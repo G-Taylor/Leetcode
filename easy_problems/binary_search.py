@@ -16,4 +16,4 @@ class Solution:
 
     
 answer = Solution()
-print(f'Target found at index {answer.search([-2, 3, 5, 6, 9, 11], 9)}')
+print(f'Target found at index {answer.search([-2, 3, 5, 6, 9, 11], 9)}') 

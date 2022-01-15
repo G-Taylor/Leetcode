@@ -12,4 +12,4 @@ class Solution:
 answer = Solution()
 test_number = [-4,-1,0,3,10]
 print('Expected Output: [0, 1, 9, 16, 100]')
-print(f'Actual Output: {answer.sortedSquares(test_number)}')
+print(f'Actual Output: {answer.sortedSquares(test_number)}') 
